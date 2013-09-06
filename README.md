@@ -21,7 +21,7 @@ Examples
     end
 
     client.get_object(:resource => :Property, :type => :Photo, :location => false, :id => "1:0:*") do |headers, content|
-      puts "Object-ID #{headers"object-id"]}, Content-ID #{headers["content-id"]}, Description #{["description"]}"
+      puts "Object-ID #{headers["object-id"]}, Content-ID #{headers["content-id"]}, Description #{["description"]}"
       puts "Data"
       puts content
     end
